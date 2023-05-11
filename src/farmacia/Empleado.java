@@ -1,6 +1,6 @@
 package farmacia;
 
-public class farmacia {
+public class Empleado {
 
     private String nombreEmpleado;
     private int cedula;
@@ -11,7 +11,7 @@ public class farmacia {
     //Constructor
 
 
-    public farmacia(String nombreEmpleado, int cedula, int horasTrabajadas, double valorPorHora, double montoDeVenta) {
+    public Empleado(String nombreEmpleado, int cedula, int horasTrabajadas, double valorPorHora) {
         this.nombreEmpleado = nombreEmpleado;
         this.cedula = cedula;
         this.horasTrabajadas = horasTrabajadas;
